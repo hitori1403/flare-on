@@ -1,0 +1,742 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "../../../../tmp/ItsOnFire.apk"
+  ],
+  "treeExpansions": [
+    [
+      "Resources",
+      "ItsOnFire.apk"
+    ],
+    [
+      "resources.arsc",
+      "Resources",
+      "ItsOnFire.apk"
+    ],
+    [
+      "com",
+      "Source code",
+      "ItsOnFire.apk"
+    ],
+    [
+      "res",
+      "resources.arsc",
+      "Resources",
+      "ItsOnFire.apk"
+    ],
+    [
+      "values",
+      "res",
+      "resources.arsc",
+      "Resources",
+      "ItsOnFire.apk"
+    ],
+    [
+      "com.secure.itsonfire.MessageWorker",
+      "secure.itsonfire",
+      "com",
+      "Source code",
+      "ItsOnFire.apk"
+    ],
+    [
+      "f",
+      "Source code",
+      "ItsOnFire.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.secure.itsonfire.MessageWorker",
+          "shortId": "onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 92
+        },
+        "comment": "my_custom_key"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.secure.itsonfire.MessageWorker",
+          "shortId": "onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 121
+        },
+        "comment": "one-channel, My Channel One"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.secure.itsonfire.MessageWorker",
+          "shortId": "onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 131
+        },
+        "comment": "Notification Channel"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.secure.itsonfire.MessageWorker",
+          "shortId": "onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 146
+        },
+        "comment": "one-channel"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.secure.itsonfire.MessageWorker",
+          "shortId": "onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 162
+        },
+        "comment": "Notification!"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.secure.itsonfire.MessageWorker",
+          "shortId": "onMessageReceived(Lcom/google/firebase/messaging/RemoteMessage;)V"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 179
+        },
+        "comment": "Best Day of the Week?"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.secure.itsonfire.MessageWorker",
+          "shortId": "onNewToken(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 46
+        },
+        "comment": "send FCM token to flareon server"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "b(Ljava/lang/String;[BLjavax/crypto/spec/SecretKeySpec;Ljavax/crypto/spec/IvParameterSpec;)[B"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 5
+        },
+        "comment": "mode 2 is decrypt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "c(ILandroid/content/Context;)Ljava/io/File;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 37
+        },
+        "comment": "AES"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "c(ILandroid/content/Context;)Ljava/io/File;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 43
+        },
+        "comment": "AES/CBC/PKCS5Padding"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "c(ILandroid/content/Context;)Ljava/io/File;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 57
+        },
+        "comment": "abcdefghijklmnop"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "d(Landroid/content/Context;)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 3
+        },
+        "comment": "https://flare-on.com/evilc2server/report_token/report_token.php?token\u003d"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "d(Landroid/content/Context;)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 15
+        },
+        "comment": "wednesday"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "f(Landroid/content/Context;I)Landroid/content/Intent;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 28
+        },
+        "comment": "provider"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "f(Landroid/content/Context;I)Landroid/content/Intent;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 41
+        },
+        "comment": "android.intent.action.SEND"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "f(Landroid/content/Context;I)Landroid/content/Intent;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 66
+        },
+        "comment": "image/png"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "f(Landroid/content/Context;I)Landroid/content/Intent;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 76
+        },
+        "comment": "android.intent.extra.STREAM"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.c",
+          "shortId": "a(Landroid/content/Context;Ljava/lang/String;)Landroid/app/PendingIntent;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 30
+        },
+        "comment": "!\u003d monday"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.c",
+          "shortId": "a(Landroid/content/Context;Ljava/lang/String;)Landroid/app/PendingIntent;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 39
+        },
+        "comment": "android.intent.action.DIAL"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.c",
+          "shortId": "a(Landroid/content/Context;Ljava/lang/String;)Landroid/app/PendingIntent;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 42
+        },
+        "comment": "tel:2028675309"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.c",
+          "shortId": "a(Landroid/content/Context;Ljava/lang/String;)Landroid/app/PendingIntent;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 69
+        },
+        "comment": "tuesday"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.c",
+          "shortId": "a(Landroid/content/Context;Ljava/lang/String;)Landroid/app/PendingIntent;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 73
+        },
+        "comment": "image"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.c",
+          "shortId": "a(Landroid/content/Context;Ljava/lang/String;)Landroid/app/PendingIntent;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 96
+        },
+        "comment": "wednesday"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.c",
+          "shortId": "a(Landroid/content/Context;Ljava/lang/String;)Landroid/app/PendingIntent;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 100
+        },
+        "comment": "image"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.c",
+          "shortId": "a(Landroid/content/Context;Ljava/lang/String;)Landroid/app/PendingIntent;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 118
+        },
+        "comment": "thursday"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.c",
+          "shortId": "a(Landroid/content/Context;Ljava/lang/String;)Landroid/app/PendingIntent;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 124
+        },
+        "comment": "android.intent.action.VIEW"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.c",
+          "shortId": "a(Landroid/content/Context;Ljava/lang/String;)Landroid/app/PendingIntent;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 127
+        },
+        "comment": "google.streetview:panoid\u003dgT28ssf0BB2LxZ63JNcL1w"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.c",
+          "shortId": "a(Landroid/content/Context;Ljava/lang/String;)Landroid/app/PendingIntent;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 142
+        },
+        "comment": "!\u003d friday"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.c",
+          "shortId": "a(Landroid/content/Context;Ljava/lang/String;)Landroid/app/PendingIntent;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 151
+        },
+        "comment": "twitter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.c",
+          "shortId": "a(Landroid/content/Context;Ljava/lang/String;)Landroid/app/PendingIntent;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 169
+        },
+        "comment": "sarturday, sunday"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.c",
+          "shortId": "a(Landroid/content/Context;Ljava/lang/String;)Landroid/app/PendingIntent;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 178
+        },
+        "comment": "youtube"
+      }
+    ],
+    "renames": [
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "f.e"
+        },
+        "newName": "HandleSound"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.secure.itsonfire.MessageWorker",
+          "shortId": "onNewToken(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196610
+        },
+        "newName": "flareon_url_with_token"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "a([B)J"
+        },
+        "newName": "crc32"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "b(Ljava/lang/String;[BLjavax/crypto/spec/SecretKeySpec;Ljavax/crypto/spec/IvParameterSpec;)[B"
+        },
+        "newName": "aesDecrypt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "b(Ljava/lang/String;[BLjavax/crypto/spec/SecretKeySpec;Ljavax/crypto/spec/IvParameterSpec;)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "alg"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "b(Ljava/lang/String;[BLjavax/crypto/spec/SecretKeySpec;Ljavax/crypto/spec/IvParameterSpec;)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "data"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "b(Ljava/lang/String;[BLjavax/crypto/spec/SecretKeySpec;Ljavax/crypto/spec/IvParameterSpec;)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "key"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "b(Ljava/lang/String;[BLjavax/crypto/spec/SecretKeySpec;Ljavax/crypto/spec/IvParameterSpec;)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "iv"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "c(ILandroid/content/Context;)Ljava/io/File;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 4
+        },
+        "newName": "alg"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "c(ILandroid/content/Context;)Ljava/io/File;"
+        },
+        "newName": "decryptImgFile"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "c(ILandroid/content/Context;)Ljava/io/File;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65537
+        },
+        "newName": "key"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "c(ILandroid/content/Context;)Ljava/io/File;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131073
+        },
+        "newName": "iv2"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "c(ILandroid/content/Context;)Ljava/io/File;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327681
+        },
+        "newName": "iv"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "c(ILandroid/content/Context;)Ljava/io/File;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "imgFile"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "c(ILandroid/content/Context;)Ljava/io/File;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524289
+        },
+        "newName": "imgFileData"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "d(Landroid/content/Context;)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "flareon_url"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "d(Landroid/content/Context;)Ljava/lang/String;"
+        },
+        "newName": "getKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "d(Landroid/content/Context;)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327681
+        },
+        "newName": "wednesday"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "e(Landroid/content/res/Resources;I)[B"
+        },
+        "newName": "readResourceData"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "e(Landroid/content/res/Resources;I)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "resource"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "e(Landroid/content/res/Resources;I)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "imgFile"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.b",
+          "shortId": "f(Landroid/content/Context;I)Landroid/content/Intent;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "imgFile"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "f.c",
+          "shortId": "a(Landroid/content/Context;Ljava/lang/String;)Landroid/app/PendingIntent;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458760
+        },
+        "newName": "imgFile"
+      }
+    ]
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "com.secure.itsonfire.MalwareInvadersActivity",
+      "subPath": "java",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "resource",
+      "tabPath": "res/values/strings.xml",
+      "subPath": "",
+      "caret": 2314,
+      "view": {
+        "x": 0,
+        "y": 301
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.secure.itsonfire.MessageWorker",
+      "subPath": "java",
+      "caret": 4078,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "f.c",
+      "subPath": "java",
+      "caret": 1201,
+      "view": {
+        "x": 0,
+        "y": 241
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "f.b",
+      "subPath": "java",
+      "caret": 2880,
+      "view": {
+        "x": 0,
+        "y": 1507
+      }
+    },
+    {
+      "type": "resource",
+      "tabPath": "AndroidManifest.xml",
+      "subPath": "",
+      "caret": 2409,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "activeTab": 2,
+  "cacheDir": "../../../../tmp/ItsOnFire.apk.cache",
+  "enableLiveReload": false,
+  "searchHistory": []
+}
